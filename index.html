@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-        <title>Document</title>
+        <link rel="stylesheet" href="css/sidebar-footer.css">
+        <title>Imersão Spotify</title>
     </head>
     <body>
         <div class="sidebar">
@@ -62,5 +62,23 @@
                 </div>
             </div>
         </div>
+        <footer class="footer-player">
+            <div class="player">
+                <div class="buttons__player">
+                    <audio src="#" id="audio" style="display: none;"></audio>
+                    <button id="prev"><span
+                            class="bi bi-skip-start-fill"></span></button>
+                    <button id="play"><span
+                            class="bi bi-play-circle-fill"></span></button>
+                    <button id="pause" style="display: none;"><span
+                            class="bi bi-pause-circle-fill"></span></button>
+                    <button id="next"><span
+                            class="bi bi-skip-end-fill"></span></button>
+                </div>
+                <div class="progressbar__player">
+                    <input type="range" value="0" max="100">
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
